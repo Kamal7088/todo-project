@@ -1,0 +1,136 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+form{
+  width:1170px;
+  margin:auto;
+  display:flex;
+gap:10px;
+}
+form input{
+  width:1170px;
+  height:40px;
+  flex-basis:80%;
+
+}
+
+form button{
+  flex-basis:20%;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.outerDiv{
+  width:1170px;
+  margin:auto;
+/* margin-top 50px means top se 50px door raho re fuy  hf h hvn nb nb nb bn nb nb nb */
+  margin-top:100px;
+}
+
+.outerDiv ul{
+  margin:0px;
+  padding:0px;
+
+  list-style:none;
+};
+
+.outerDiv li:hover {
+  background-color: #555;
+}
+
+.outerDiv ul li span.delete {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ff4040;
+}
+.outerDiv li{
+  color:white;
+padding:10px;
+text-align:left;
+background-color:black;
+position:relative;
+font-size:25px;
+}
+.outerDiv ul li span.delete:hover {
+  color: red;
+}
+
+.com{
+  text-decoration:line-through;
+  color:red;
+
+  /* agar koi color ki style nhi aari to wha poarb  impotan likh do jeise yaellow nhi aara tha to hmne wha apr !important likha to yellow color aa gya re ba abc b bhc hc bhc bc ;;;;;;;; */
+  background-color:yellow ! important;
+
+}
+.tabsOuter{
+  width:1170px;
+  margin:auto;
+
+  cursor:pointer;
+
+}
+
+.tabsOuter ul{
+  display:flex;
+
+  list-style:none;
+  margin:0px;
+  padding:0px;
+  gap:20px;
+
+}
+
+.activeB{
+  background-color:red;
+  color:white;
+}
+.tabsOuter ul p{
+  color:blue;
+  background-color:white;
+}
